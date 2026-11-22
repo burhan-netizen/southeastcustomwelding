@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>South East Custom Welding</title>
+<meta name="description" content="South East Custom Welding, Korumburra VIC: food-grade stainless and aluminium fabrication, process piping, handrails, balustrades and truck and trailer repairs across Gippsland and Melbourne. Call 0433 753 011.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/ypipe.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "South East Custom Welding", "telephone": "+61-433-753-011", "email": "johnny@southeastcustomwelding.com.au", "address": {"@type": "PostalAddress", "addressLocality": "Korumburra", "addressRegion": "VIC", "postalCode": "3950", "addressCountry": "AU"}, "areaServed": ["Gippsland", "South East Melbourne", "Melbourne"]}</script>
+<style>
+/*
+VOICE: Practical, proud tradesman.
+IDEA: Food-grade welds, built to last.
+PICTURE: Their own Instagram job photos.
+COLOUR and TYPE: Brand slate #303849 with spark orange; Anton (their brand font) + Inter.
+LAYOUT: Split hero, story steps.
+*/
+:root{color-scheme:light;--bg:#f1f1ef;--card:#ffffff;--ink:#1d2330;--ink2:#3d4452;--muted:#5c6270;--a:#e85d1c;--a2:#ff8a3d;--on:#fff;--dk:#262c3a;--dk2:#161a24;--line:#dcdcd8;--soft:#7c8291;--r:14px;--br:6px;--hf:'Anton';--bf:'Inter';--ease:cubic-bezier(.2,.7,.2,1)}
+:root[data-theme=dark],:root[data-theme=light]{color-scheme:light}
+*{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:110px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--bf),system-ui,sans-serif;overflow-x:clip;-webkit-tap-highlight-color:transparent}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:3px solid #3d7bff;outline-offset:3px;border-radius:6px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 max(4vw,16px)}
+section{padding:clamp(64px,9vw,136px) 0}
+.label{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:var(--muted);margin:0 0 16px}
+.label::before{content:"";width:22px;height:2px;background:var(--a);opacity:.9}
+h1,h2,h3{margin:0;font-family:var(--hf),sans-serif;letter-spacing:0;text-wrap:balance}
+h2{font-size:clamp(34px,4.6vw,60px);line-height:1.04;font-weight:400}
+h2 .soft{color:var(--soft)}
+h3{font-size:21px;line-height:1.2;font-weight:700}
+p{margin:0}
+.lead{font-size:clamp(17px,1.35vw,19px);color:var(--ink2);max-width:62ch}
+.btn{position:relative;overflow:hidden;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:var(--br);font:600 16px/1 var(--bf),sans-serif;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .25s var(--ease),box-shadow .25s,background .25s;white-space:nowrap}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-a{background:var(--a);color:var(--on);box-shadow:0 12px 30px -14px var(--a)}
+.btn-a:hover{transform:translateY(-2px);box-shadow:0 18px 38px -14px var(--a)}
+.btn-line{border-color:rgba(255,255,255,.4);color:#fff;background:rgba(255,255,255,.05)}
+.btn-line:hover{border-color:#fff;background:rgba(255,255,255,.12)}
+.btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+.btn-dk{background:var(--dk);color:#fff}
+.btn-dk:hover{transform:translateY(-2px)}
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.5) 50%,transparent 65%);transform:translateX(-130%);opacity:0}
+.btn:hover::before,.btn:focus-visible::before{opacity:1;animation:sweep .85s ease}
+@keyframes sweep{to{transform:translateX(130%)}}
+.btn::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;box-shadow:inset 0 1px 0 rgba(255,255,255,.3),inset 0 -1px 0 rgba(0,0,0,.18)}
+.btn:active{transform:translateY(1px) scale(.985)}
+.btn-ripple{position:absolute;z-index:-1;pointer-events:none;width:20px;height:20px;border-radius:50%;transform:translate(-50%,-50%) scale(0);background:radial-gradient(circle,rgba(255,255,255,.5) 0%,transparent 70%);animation:ripple .6s ease forwards}
+@keyframes ripple{from{transform:translate(-50%,-50%) scale(0);opacity:.9}to{transform:translate(-50%,-50%) scale(4);opacity:0}}
+.demo{background:#000;color:#d9dadd;font-size:13.5px;text-align:center;padding:9px 16px;line-height:1.4}
+.demo a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.prog{position:fixed;top:0;left:0;height:3px;width:100%;background:var(--a);transform-origin:0 50%;transform:scaleX(var(--sp,0));z-index:60;pointer-events:none}
+header{position:sticky;top:0;z-index:40;transition:background .3s,box-shadow .3s;}
+.hdr-dark{background:color-mix(in srgb,var(--dk) 86%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07);color:#fff}
+.hdr-light{background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header.scrolled{box-shadow:0 10px 30px -18px rgba(0,0,0,.45)}
+.hbar{display:flex;align-items:center;gap:22px;height:80px;transition:height .3s var(--ease)}
+header.scrolled .hbar{height:66px}
+.brand{display:flex;align-items:center;text-decoration:none;flex:none}
+.brandrow{display:flex;align-items:center;gap:12px}.lbadge{width:46px;height:46px;border-radius:12px;object-fit:cover;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.08)}.lbadge.round{border-radius:50%}.lbadge.big{width:84px;height:84px;border-radius:20px}.lbadge.round.big{border-radius:50%}header.scrolled .lbadge{width:40px;height:40px}.lpill{display:inline-flex;align-items:center;background:#fff;border-radius:12px;padding:7px 12px;box-shadow:0 0 0 1px rgba(0,0,0,.08)}.lpill img{height:34px;width:auto}.lpill.big{padding:12px 18px}.lpill.big img{height:56px}
+.brandimg{height:56px;width:auto;transition:height .3s var(--ease)}
+header.scrolled .brandimg{height:45px}
+.wordmark{display:flex;flex-direction:column;line-height:1}
+.wordmark b{font:400 21px var(--hf),sans-serif;letter-spacing:-.02em}
+.wordmark small{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.75;margin-top:5px}
+nav{display:flex;gap:28px;margin-left:auto}
+nav a{text-decoration:none;font-weight:500;font-size:15px;padding:8px 0;position:relative;opacity:.82}
+nav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--a);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+nav a:hover{opacity:1}nav a:hover::after{transform:scaleX(1)}
+.hcall{margin-left:6px;min-height:46px;padding:0 20px;font-size:15px}
+@media(max-width:1020px){nav{display:none}.hcall{margin-left:auto}}
+@media(max-width:480px){.hcall .t{display:none}.hcall{padding:0 15px}.brandimg{height:45px}.wordmark b{font-size:18px}}
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.split .w>span{display:inline-block}
+.live{width:8px;height:8px;border-radius:50%;background:var(--a);animation:ping 2.2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--a) 60%,transparent)}70%{box-shadow:0 0 0 10px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.rating{display:flex;align-items:center;gap:12px;margin-top:30px;flex-wrap:wrap}
+.rating .stars{color:#f5b400;letter-spacing:3px;font-size:18px}
+.rating b{font-family:var(--hf),sans-serif;font-size:22px}
+.rating span{font-size:14.5px;opacity:.75}
+.chip{position:absolute;z-index:3;background:rgba(18,19,22,.86);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:12px 16px;font-size:13.5px;line-height:1.35;color:#d6d8dc;max-width:260px}
+.chip b{display:block;color:#fff;font-family:var(--hf),sans-serif;font-size:15px}
+.chip i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--a);margin-right:6px}
+
+.hero{padding:clamp(40px,5vw,80px) 0 clamp(56px,7vw,100px);position:relative;overflow:hidden}
+.hgrid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(28px,4vw,64px);align-items:center}
+.hero h1{font-size:clamp(44px,7vw,100px);line-height:.97;font-weight:800}
+.hero h1 .hl{color:var(--a)}
+.hero .lead{margin:24px 0 32px}
+.hpic{position:relative}
+.hmask{border-radius:32px;overflow:hidden}
+.hmask img{width:100%;aspect-ratio:4/4.6;object-fit:cover;transform:translate3d(0,var(--py,0px),0) scale(1.08)}
+.hpic .chip{left:-20px;bottom:26px}
+@media(max-width:860px){.hgrid{grid-template-columns:1fr}.hpic .chip{left:12px;bottom:12px}.hmask img{aspect-ratio:4/3.6}}
+
+.proof{background:var(--dk2);color:#fff}
+.pgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.pf{padding:32px 24px;border-left:1px solid rgba(255,255,255,.09)}
+.pf:first-child{border-left:0}
+.pf strong{display:block;font-family:var(--hf),sans-serif;font-size:clamp(28px,3.2vw,46px);font-weight:800;letter-spacing:-.03em;line-height:1.05}
+.pf strong .u{color:var(--a)}
+.pf>span{display:block;margin-top:10px;color:#b3b7bf;font-size:14.5px}
+@media(max-width:860px){.pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.pf:nth-child(3){border-left:0}.pf{border-top:1px solid rgba(255,255,255,.09)}}
+.mq{overflow:hidden;padding:26px 0;border-bottom:1px solid var(--line)}
+.mq-track{display:flex;width:max-content;align-items:center;gap:40px;animation:mq 36s linear infinite;padding-right:40px}
+.mq-track span{font-family:var(--hf),sans-serif;font-weight:700;font-size:clamp(20px,2.2vw,28px);letter-spacing:-.02em;white-space:nowrap}
+.mq-track i{width:9px;height:9px;background:var(--a);border-radius:2px;transform:rotate(45deg);flex:none}
+.mq:hover .mq-track{animation-play-state:paused}
+@keyframes mq{to{transform:translateX(-50%)}}
+.prob{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(28px,5vw,80px);align-items:end}
+.prob .lead+.lead{margin-top:16px}
+@media(max-width:860px){.prob{grid-template-columns:1fr}}
+.shead{display:flex;justify-content:space-between;gap:24px;align-items:end;flex-wrap:wrap;margin-bottom:42px}
+.svc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.svc.n2,.svc.n4{grid-template-columns:repeat(2,minmax(0,1fr))}
+.svc.n5{grid-template-columns:repeat(6,minmax(0,1fr))}.svc.n5>.card{grid-column:span 2}.svc.n5>.card:nth-child(n+4){grid-column:span 3}.svc.n5>.card:nth-child(n+4) .imw img{aspect-ratio:2/1}
+.card{position:relative;background:var(--card);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .5s var(--ease),box-shadow .5s var(--ease);isolation:isolate}
+.card::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;border-radius:inherit;background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--a) 22%,transparent),transparent 45%);opacity:0;transition:opacity .4s}
+.card:hover::after{opacity:1}
+.card:hover{transform:translateY(-6px);box-shadow:0 30px 60px -30px rgba(20,21,24,.45)}
+.imw{overflow:hidden;position:relative}
+.card .imw img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform 1.1s var(--ease)}
+.card:hover .imw img{transform:scale(1.07)}
+.card .num{position:absolute;top:14px;left:14px;z-index:1;background:var(--dk);color:#fff;font:700 13px var(--hf),sans-serif;border-radius:999px;padding:6px 12px}
+.card .cb{padding:22px 24px 26px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card p{color:var(--ink2);font-size:16px}
+.card a{margin-top:auto;padding-top:12px;font-weight:600;font-size:15px;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.card a span{display:inline-block;transition:transform .3s var(--ease)}
+.card:hover a span{transform:translateX(4px)}
+.also{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.also b{font-size:14.5px;margin-right:4px}
+.tag{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14.5px;color:var(--ink2)}
+@media(max-width:980px){.svc,.svc.n5{grid-template-columns:repeat(2,minmax(0,1fr))}.svc.n5>.card,.svc.n5>.card:nth-child(n+4){grid-column:auto}}
+@media(max-width:600px){.svc,.svc.n2,.svc.n4,.svc.n5{grid-template-columns:1fr}}
+.story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px)}
+.story-media{position:sticky;top:120px;height:min(72vh,640px);border-radius:32px;overflow:hidden;background:var(--dk)}
+.story-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08);transition:opacity .8s var(--ease),transform 1.4s var(--ease)}
+.story-media img.on{opacity:1;transform:none}
+.meter{position:absolute;left:20px;right:20px;bottom:20px;z-index:2;display:flex;gap:8px}
+.meter i{flex:1;height:5px;border-radius:9px;background:rgba(255,255,255,.35);overflow:hidden;position:relative}
+.meter i::after{content:"";position:absolute;inset:0;background:var(--a);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
+.meter i.on::after{transform:none}
+.st{min-height:60vh;display:flex;flex-direction:column;justify-content:center;opacity:.3;transition:opacity .5s}
+.st.on{opacity:1}
+.st .k{font:800 14px var(--hf),sans-serif;color:var(--on);background:var(--a);display:inline-block;padding:6px 12px;border-radius:999px;margin-bottom:18px;width:max-content}
+.st h3{font-size:clamp(28px,3vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1.08}
+.st p{margin-top:14px;color:var(--ink2);max-width:46ch}
+.st img{display:none;border-radius:22px;margin-top:20px}
+@media(max-width:860px){.story{grid-template-columns:1fr}.story-media{display:none}.st{min-height:auto;opacity:1;padding:28px 0;border-top:1px solid var(--line)}.st img{display:block}}
+.gets{display:grid;gap:16px}
+.get{background:var(--card);border-radius:28px;padding:clamp(26px,3vw,40px);display:flex;gap:24px;align-items:flex-start;border:1px solid rgba(0,0,0,.05)}
+.get .gn{font:800 clamp(44px,5vw,68px)/.9 var(--hf),sans-serif;letter-spacing:-.04em;color:var(--a);flex:none;min-width:1.6em}
+.get h3{font-size:clamp(22px,2vw,28px);font-weight:800}
+.get p{color:var(--ink2);margin-top:10px}
+.gets.is-stacking{display:block}
+.gets.is-stacking .get{margin-bottom:5rem;min-height:12rem;transform-origin:top center;will-change:transform,filter;box-shadow:0 20px 50px -24px rgba(0,0,0,.35);transition:none}
+.stack-end{height:1px;margin-top:30vh}
+.proc{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,80px);align-items:start}
+.proc-l{position:sticky;top:130px}
+@media(max-width:860px){.proc{grid-template-columns:1fr}.proc-l{position:static}}
+.ba{position:relative;border-radius:32px;overflow:hidden;aspect-ratio:16/10;max-height:72vh;width:100%;user-select:none;touch-action:pan-y;background:var(--dk)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba .after{clip-path:inset(0 0 0 var(--x,50%))}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--x,50%);width:3px;background:#fff;transform:translateX(-50%);z-index:2}
+.ba .knob{position:absolute;top:50%;left:var(--x,50%);transform:translate(-50%,-50%);z-index:3;width:54px;height:54px;border-radius:50%;background:#fff;color:#111;display:grid;place-items:center;font-weight:800;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.ba .tg{position:absolute;top:16px;z-index:2;background:rgba(0,0,0,.6);color:#fff;border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:4;margin:0}
+.band{background:var(--dk);color:#eceef1;border-radius:40px;margin:0 max(1.5vw,8px);padding:clamp(56px,7vw,110px) 0;position:relative;overflow:hidden}
+.band::before{content:"";position:absolute;width:640px;height:640px;right:-200px;top:-200px;background:radial-gradient(circle,color-mix(in srgb,var(--a) 18%,transparent),transparent 65%);pointer-events:none}
+.band .label{color:#a9adb5}
+.band h2 .soft{color:#9095a0}
+.why{position:relative;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(28px,5vw,80px);align-items:center}
+.why figure{margin:0;position:relative}
+.why figure img{border-radius:30px;width:100%;aspect-ratio:4/5;object-fit:cover}
+.why figcaption{position:absolute;left:16px;bottom:16px;right:16px;background:rgba(18,19,22,.86);backdrop-filter:blur(8px);border-radius:16px;padding:14px 16px;font-size:14px;color:#c8cbd1}
+.why figcaption b{color:#fff;display:block;font-family:var(--hf),sans-serif}
+.why .lead{color:#c3c7ce;margin:22px 0 30px}
+.pts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 30px;margin:0;padding:0;list-style:none}
+.pts li{border-top:1px solid rgba(255,255,255,.14);padding-top:16px}
+.pts b{display:flex;align-items:center;gap:10px;font-size:17px;margin-bottom:5px;color:#fff}
+.pts b::before{content:"";width:9px;height:9px;background:var(--a);border-radius:2px;transform:rotate(45deg);flex:none}
+.pts span{color:#b4b9c1;font-size:15.5px}
+.creds{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.creds span{border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:8px 14px;font-size:14px;color:#dfe1e5}
+@media(max-width:900px){.why{grid-template-columns:1fr}.why figure img{aspect-ratio:4/3.4}}
+@media(max-width:520px){.pts{grid-template-columns:1fr}}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:44px;position:relative}
+.step{background:var(--card);border-radius:var(--r);padding:28px 24px 30px;position:relative;z-index:1}
+.step .n{width:46px;height:46px;border-radius:14px;background:var(--dk);color:var(--a);display:grid;place-items:center;font:800 17px var(--hf),sans-serif;margin-bottom:20px}
+.step p{color:var(--ink2);font-size:16px;margin-top:8px}
+.wire{position:absolute;left:5%;right:5%;top:51px;height:2px;background:repeating-linear-gradient(90deg,var(--ink) 0 8px,transparent 8px 16px);opacity:.15}
+.wire i{position:absolute;inset:0;background:var(--a);transform:scaleX(0);transform-origin:left}
+@media(max-width:980px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.wire{display:none}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}}
+.work{columns:3 280px;column-gap:16px;margin-top:44px}
+.work figure{break-inside:avoid;margin:0 0 16px;background:var(--card);border-radius:var(--r);overflow:hidden;transition:transform .5s var(--ease),box-shadow .5s var(--ease)}
+.work figure:hover{transform:translateY(-6px);box-shadow:0 26px 50px -28px rgba(20,21,24,.45)}
+.work img{width:100%;transition:transform 1.1s var(--ease)}
+.work figure:hover img{transform:scale(1.06)}
+.work figcaption{padding:14px 18px 16px;font-size:14.5px;color:var(--ink2)}
+.work figcaption b{display:block;color:var(--ink);font-size:15.5px;font-weight:600}
+.ig{margin-top:12px;font-size:15px;color:var(--muted)}
+.revhead{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
+.gbadge{display:flex;align-items:center;gap:14px;background:var(--card);border-radius:20px;padding:14px 20px}
+.gbadge b{font:800 30px var(--hf),sans-serif;letter-spacing:-.03em}
+.gbadge .stars{color:#f5b400;letter-spacing:2px}
+.gbadge small{display:block;color:var(--muted);font-size:13.5px}
+.revs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:44px}
+.rows{margin-top:44px;display:grid;gap:16px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.row{display:flex;gap:16px;width:max-content;animation:mq 60s linear infinite}
+.row.r2{animation-direction:reverse;animation-duration:70s}
+.rows:hover .row{animation-play-state:paused}
+.rev{background:var(--card);border-radius:var(--r);padding:24px 26px;margin:0;display:flex;flex-direction:column;gap:12px}
+.rows .rev{width:380px;flex:none}
+.rev .stars{color:#f5b400;letter-spacing:2px}
+.rev blockquote{margin:0;font-size:15.5px;line-height:1.55}
+.rev figcaption{margin-top:auto;display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted)}
+.rev figcaption b{display:block;color:var(--ink);font-size:15px}
+.av{width:40px;height:40px;border-radius:50%;background:var(--dk);color:var(--a);display:grid;place-items:center;font:700 14px var(--hf),sans-serif;flex:none}
+.revsrc{margin-top:16px;font-size:13.5px;color:var(--muted)}
+.prom{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:44px}
+.prom.p4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.prom div{background:var(--card);border-radius:var(--r);padding:26px}
+.prom b{display:block;font:800 20px var(--hf),sans-serif;margin-bottom:6px}
+.prom span{color:var(--ink2);font-size:15.5px}
+@media(max-width:980px){.revs,.prom,.prom.p4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.revs,.prom,.prom.p4{grid-template-columns:1fr}.rows .rev{width:300px}}
+.contact{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(28px,5vw,72px)}
+.subs{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.subs span{background:var(--card);border-radius:999px;padding:7px 13px;font-size:14px;color:var(--ink2);border:1px solid var(--line)}
+.facts{margin:26px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.facts li{background:var(--card);border-radius:18px;padding:16px 18px}
+.facts b{display:block;font-size:13px;color:var(--muted);font-weight:600;margin-bottom:3px}
+.facts a{font-weight:600;font-size:18px;text-decoration:none;word-break:break-word}
+.facts .wide{grid-column:1/-1}
+form{background:var(--dk);color:#fff;border-radius:30px;padding:clamp(24px,3vw,38px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-content:start;align-self:start;position:relative;overflow:hidden}
+form::before{content:"";position:absolute;width:420px;height:420px;right:-160px;top:-180px;background:radial-gradient(circle,color-mix(in srgb,var(--a) 22%,transparent),transparent 65%);pointer-events:none}
+form h3{grid-column:1/-1;font-size:24px}
+form .full{grid-column:1/-1}
+label{display:block;font-size:14px;font-weight:600;margin-bottom:6px;color:#e3e5e8}
+input,select,textarea{width:100%;font:16px var(--bf),sans-serif;color:#fff;background:rgba(255,255,255,.07);border:1.5px solid rgba(255,255,255,.16);border-radius:12px;padding:13px 14px;min-height:50px}
+select option{color:#111}
+textarea{min-height:110px;resize:vertical}
+input::placeholder,textarea::placeholder{color:#8d9199}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--a);box-shadow:0 0 0 3px color-mix(in srgb,var(--a) 30%,transparent)}
+.err{color:#ffb4a8;font-size:13.5px;margin-top:5px;display:none}
+.invalid .err{display:block}.invalid input{border-color:#ff8a78}
+.formnote{font-size:13.5px;color:#a9adb5}
+.ok{grid-column:1/-1;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:14px 16px;display:none}
+@media(max-width:900px){.contact{grid-template-columns:1fr}}
+@media(max-width:520px){form{grid-template-columns:1fr}.facts{grid-template-columns:1fr}}
+.final{background:var(--a);color:var(--on);border-radius:40px;padding:clamp(48px,6vw,96px) clamp(24px,5vw,80px);display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap;position:relative;overflow:hidden}
+.final::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;border:60px solid currentColor;opacity:.07;pointer-events:none}
+.final h2{max-width:16ch;position:relative;z-index:1}
+.final p{margin-top:12px;font-size:18px;opacity:.85;position:relative;z-index:1}
+.final .ctas{position:relative;z-index:1}
+.final .btn-ghost{border-color:currentColor;color:inherit}
+.final .btn-ghost:hover{background:var(--on);color:var(--a)}
+footer{background:var(--dk);color:#b9bdc4;margin-top:clamp(64px,8vw,120px);padding:64px 0 clamp(150px,16vw,240px);font-size:15px;position:relative;overflow:hidden}
+.fgrid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:32px}
+.flogo{height:96px;width:auto;margin-bottom:16px}
+.fgrid .brandrow,.fgrid .lpill{margin-bottom:18px}
+footer .wordmark{color:#fff;margin-bottom:16px}
+footer h4{color:#fff;font:700 15px var(--hf),sans-serif;margin:0 0 12px}
+footer a{text-decoration:none}
+footer a:hover{color:#fff;text-decoration:underline}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.credit{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.1);margin-top:44px;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:14px;color:#8e939c}
+.credit a{color:#fff;font-weight:600}
+.foot-aurora{position:absolute;left:50%;top:45%;width:80vw;height:60vh;transform:translate(-50%,-50%);border-radius:50%;filter:blur(90px);background:radial-gradient(circle,color-mix(in srgb,var(--a) 26%,transparent) 0%,transparent 70%);pointer-events:none;animation:breathe 8s ease-in-out infinite alternate}
+@keyframes breathe{from{transform:translate(-50%,-50%) scale(1);opacity:.55}to{transform:translate(-50%,-50%) scale(1.1);opacity:1}}
+.foot-giant{position:absolute;left:50%;bottom:-3vw;transform:translateX(-50%) translateY(calc((1 - var(--p,0)) * 10vh)) scale(calc(.86 + .14 * var(--p,0)));opacity:var(--p,0);font:800 var(--gsz,16vw)/1 var(--hf),sans-serif;letter-spacing:-.06em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px color-mix(in srgb,var(--a) 40%,transparent);pointer-events:none;user-select:none}
+.foot-heart{display:inline-block;color:#ff6b7a;animation:beat 2s cubic-bezier(.25,1,.5,1) infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%,45%{transform:scale(1.2)}30%{transform:scale(1)}}
+@media(max-width:860px){.fgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.fgrid{grid-template-columns:1fr}}
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:color-mix(in srgb,var(--dk) 95%,transparent);border-top:1px solid rgba(255,255,255,.08)}
+.mbar .btn{flex:1;min-height:50px;padding:0 12px}
+@media(max-width:760px){.mbar{display:flex}}
+.js .split .w>span{transform:translateY(105%);animation:wordUp .9s var(--ease) forwards}
+.js .split .w:nth-of-type(2)>span{animation-delay:.1s}.js .split .w:nth-of-type(3)>span{animation-delay:.2s}.js .split .w:nth-of-type(4)>span{animation-delay:.3s}.js .split .w:nth-of-type(5)>span{animation-delay:.4s}.js .split .w:nth-of-type(6)>span{animation-delay:.5s}
+@keyframes wordUp{to{transform:none}}
+.js .hin{opacity:0;transform:translateY(16px);animation:fadeUp .8s var(--ease) var(--d,0s) forwards}
+@keyframes fadeUp{to{opacity:1;transform:none}}
+.js .plane,.js .hmask{animation:planeIn 1.2s cubic-bezier(.7,0,.2,1) var(--d,.15s) both}
+@keyframes planeIn{from{clip-path:inset(100% 0 0 0 round 28px)}to{clip-path:inset(0 0 0 0 round 28px)}}
+.js .hbg img{animation:settle 2.2s var(--ease) both}
+@keyframes settle{from{scale:1.18}to{scale:1}}
+.js .chip{opacity:0;animation:fadeIn .9s var(--ease) var(--d,1s) forwards}
+@keyframes fadeIn{from{opacity:0;filter:blur(8px)}to{opacity:1;filter:none}}
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.js .rv.in{opacity:1;transform:none}
+.js .rv h2{clip-path:inset(0 0 100% 0);transform:translateY(28px);transition:clip-path 1s cubic-bezier(.7,0,.2,1),transform 1s var(--ease)}
+.js .rv.in h2{clip-path:inset(-10% -5% -15% -5%);transform:none}
+.js .stag>*{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.js .stag.in>*{opacity:1;transform:none}
+.stag.in>*:nth-child(2){transition-delay:.08s}.stag.in>*:nth-child(3){transition-delay:.16s}.stag.in>*:nth-child(4){transition-delay:.24s}.stag.in>*:nth-child(5){transition-delay:.32s}.stag.in>*:nth-child(6){transition-delay:.4s}.stag.in>*:nth-child(7){transition-delay:.48s}.stag.in>*:nth-child(8){transition-delay:.56s}.stag.in>*:nth-child(9){transition-delay:.64s}
+.js .clipr{clip-path:inset(0 0 100% 0 round 30px);transition:clip-path 1.3s cubic-bezier(.7,0,.2,1)}
+.js .clipr.in{clip-path:inset(0 0 0 0 round 30px)}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ .btn::before,.btn-ripple{display:none}.btn:active,.btn:hover{transform:none}
+ .js .split .w>span,.js .hin,.js .plane,.js .hmask,.js .chip,.js .hbg img{animation:none!important;opacity:1;transform:none;clip-path:none}
+ .js .rv,.js .stag>*{opacity:1;transform:none;transition:none}
+ .js .rv h2,.js .clipr{clip-path:none;transform:none;transition:none}
+ .live,.mq-track,.row,.strip,.foot-aurora,.foot-heart{animation:none}
+ .story-media img{transition:none}
+ .card:hover,.work figure:hover{transform:none}
+ .foot-giant{opacity:.9;transform:translateX(-50%)}
+}
+@media(hover:none){.btn-ghost:hover{background:transparent;color:var(--ink)}}
+</style>
+</head>
+<body>
+<div class="demo" role="note">Concept website prepared for South East Custom Welding by <a href="https://magolabs.in">Mago Labs</a>. Not the live site.</div>
+<div class="prog" aria-hidden="true"></div>
+<header id="hdr" class="hdr-dark"><div class="wrap hbar"><a class="brand" href="#top" aria-label="South East Custom Welding, back to top"><span class="brandrow"><img class="lbadge" src="img/badge.webp" alt="South East Custom Welding logo" width="160" height="160"><span class="wordmark"><b>SOUTH EAST</b><small>Custom Welding</small></span></span></a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#how">How we work</a><a href="#work">Our work</a><a href="#quote">Get a quote</a></nav>
+<a class="btn btn-a hcall magnetic" href="tel:+61433753011"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span class="t">0433 753 011</span></a>
+</div></header><main id="top">
+<section class="hero"><div class="wrap hgrid"><div><span class="label hin" style="--d:.05s"><i class="live" aria-hidden="true"></i>Korumburra, Gippsland and South East Melbourne</span><h1 class="split"><span class="w"><span>FOOD-GRADE</span></span> <span class="w"><span>WELDS.</span></span><br><span class="w"><span class=hl>BUILT</span></span> <span class="w"><span class=hl>TO</span></span> <span class="w"><span class=hl>LAST.</span></span></h1><p class="lead hin" style="--d:.5s">Stainless steel and aluminium fabrication for the food industry, plus handrails, balustrades and truck and trailer repairs. Family owned since 2007, in our workshop or on your site.</p><div class="ctas hin" style="--d:.65s"><a class="btn btn-a" href="#quote">Get a quote</a><a class="btn btn-ghost" href="tel:+61433753011"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call Johnny: 0433 753 011</a></div></div><div class="hpic" id="stage"><div class="hmask"><img src="img/ypipe.webp" alt="Polished stainless steel Y-piece pipe fabricated in the workshop" width="820" height="820" fetchpriority=high></div><div class="chip" style="--d:1.1s"><b><i></i>Since 2007</b>Family owned and operated</div></div></div></section>
+<div class="proof"><div class="wrap pgrid stag">
+<div class="pf"><strong><span class="count" data-to="2007" data-dec="0" data-pre="">2007</span><span class="u"></span></strong><span>family owned since</span></div>
+<div class="pf"><strong><span class="count" data-to="20" data-dec="0" data-pre="">20</span><span class="u">+ yrs</span></strong><span>as a qualified welder</span></div>
+<div class="pf"><strong>AS1796<span class="u"></span></strong><span>certified welder</span></div>
+<div class="pf"><strong><span class="count" data-to="2" data-dec="0" data-pre="">2</span><span class="u"></span></strong><span>ways to work: workshop or onsite</span></div>
+</div></div>
+<div class="mq" aria-hidden="true"><div class="mq-track"><span>Food-grade stainless</span><i></i><span>Process piping</span><i></i><span>Abattoirs</span><i></i><span>Wineries</span><i></i><span>Cheese factories</span><i></i><span>Cold storage</span><i></i><span>Handrails</span><i></i><span>Balustrades</span><i></i><span>Gates</span><i></i><span>Truck and trailer repairs</span><i></i><span>Custom furniture</span><i></i></div></div>
+<section aria-labelledby="prob-h"><div class="wrap prob"><div class="rv"><span class="label">The problem</span><h2 id="prob-h">Food plants cannot wait. <span class="soft">And they cannot accept rough welds.</span></h2></div><div class="rv"><p class="lead">When a line goes down or a pipe needs replacing, you need a welder who understands hygiene, food-grade finishes and production pressure.</p><p class="lead">Johnny has welded stainless and aluminium for abattoirs, wineries, cheese factories and cold storage across Gippsland and South East Melbourne since 2007, in the workshop or on your floor.</p></div></div></section>
+<section id="services" aria-labelledby="svc-h" style="padding-top:0"><div class="wrap"><div class="shead rv"><div><span class="label">What we do</span><h2 id="svc-h">Stainless, aluminium <span class="soft">and everything in between.</span></h2></div><a class="btn btn-ghost" href="#quote">Get a quote</a></div><div class="svc stag">
+<article class="card"><div class="imw"><span class="num">01</span><img src="img/foodframe.webp" alt="Food-grade stainless steel frame and handrails" width="820" height="820" loading=lazy></div><div class="cb"><h3>Food industry fabrication</h3><p>Stainless and aluminium pipe and plate work for abattoirs, wineries, dairies and cold storage.</p><a href="#quote">Talk about your plant <span>→</span></a></div></article>
+<article class="card"><div class="imw"><span class="num">02</span><img src="img/ypipe.webp" alt="Stainless Y-piece process pipe" width="820" height="820" loading=lazy></div><div class="cb"><h3>Process piping</h3><p>Milk lines, process piping and fittings fabricated and installed to food-grade standards.</p><a href="#quote">Quote process piping <span>→</span></a></div></article>
+<article class="card"><div class="imw"><span class="num">03</span><img src="img/balustrade.webp" alt="Stainless wire balustrade on a balcony" width="820" height="820" loading=lazy></div><div class="cb"><h3>Handrails and balustrades</h3><p>Stainless wire balustrades, handrails and gates for homes and commercial sites.</p><a href="#quote">Quote a balustrade <span>→</span></a></div></article>
+<article class="card"><div class="imw"><span class="num">04</span><img src="img/trailer.webp" alt="Truck body frame in the workshop" width="640" height="710" loading=lazy></div><div class="cb"><h3>Truck, trailer and caravan repairs</h3><p>Frame repairs, modifications and new builds for trucks, trailers and caravans.</p><a href="#quote">Book a repair <span>→</span></a></div></article>
+<article class="card"><div class="imw"><span class="num">05</span><img src="img/dredger.webp" alt="Pipe welding repair on a sand dredger" width="697" height="488" loading=lazy></div><div class="cb"><h3>Onsite repairs</h3><p>Breakdown and maintenance welding on your site, from dredgers to production lines.</p><a href="#quote">Call for onsite work <span>→</span></a></div></article>
+<article class="card"><div class="imw"><span class="num">06</span><img src="img/coldroom.webp" alt="Cold room fit-out with stainless doors" width="820" height="820" loading=lazy></div><div class="cb"><h3>Fit-outs and maintenance</h3><p>Cold room, refrigeration and plant fit-outs, plus scheduled maintenance work.</p><a href="#quote">Plan maintenance <span>→</span></a></div></article>
+</div>
+<div class="also rv"><b>Also:</b><span class="tag">Food-grade stainless trolleys</span><span class="tag">Gates</span><span class="tag">Custom furniture</span><span class="tag">Accessible bathroom fit-outs</span><span class="tag">Farm repairs</span></div>
+</div></section></main>
+<section id="how" aria-labelledby="sg-h" style="padding-top:0"><div class="wrap"><div class="rv" style="margin-bottom:10px"><span class="label">How we work</span><h2 id="sg-h">From the call <span class="soft">to a clean, signed-off job.</span></h2></div><div class="story"><div class="story-media" aria-hidden="true">
+<img class="on" src="img/doors.webp" alt="" loading="lazy">
+<img class="" src="img/dredger.webp" alt="" loading="lazy">
+<img class="" src="img/trailer.webp" alt="" loading="lazy">
+<img class="" src="img/balustrade.webp" alt="" loading="lazy">
+<div class="meter"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div></div><div class="steps-s">
+<div class="st on" data-i="0"><span class="k">01 · Call</span><h3>Tell Johnny what you need</h3><p>A breakdown, a new line or a balustrade. Call or send photos and measurements.</p><img src="img/doors.webp" alt="Workshop job" width="820" height="820" loading=lazy></div>
+<div class="st" data-i="1"><span class="k">02 · Assess</span><h3>We look at the job</h3><p>Onsite or in the workshop, we check access, materials and the finish your standard needs.</p><img src="img/dredger.webp" alt="Onsite assessment" width="697" height="488" loading=lazy></div>
+<div class="st" data-i="2"><span class="k">03 · Fabricate</span><h3>Built in the Korumburra workshop</h3><p>Stainless and aluminium cut, fitted and welded by a qualified welder.</p><img src="img/trailer.webp" alt="Workshop fabrication" width="640" height="710" loading=lazy></div>
+<div class="st" data-i="3"><span class="k">04 · Install</span><h3>Installed and cleaned up</h3><p>Fitted on site, finished to food-grade where needed and left clean.</p><img src="img/balustrade.webp" alt="Installed balustrade" width="820" height="820" loading=lazy></div>
+</div></div></div></section>
+<section id="why" class="band" aria-labelledby="why-h"><div class="wrap why"><figure class="clipr rv"><img src="img/foodframe.webp" alt="Stainless steel food-grade frame" width="820" height="820" loading=lazy><figcaption><b>Food-grade finish</b>Workshop and onsite</figcaption></figure><div class="rv"><span class="label">Why South East Custom Welding</span><h2 id="why-h">A qualified welder, <span class="soft">not a general handyman.</span></h2><p class="lead">Johnny Spicuzza is a qualified welder since 2005 with a Cert III in Engineering Fabrication and a refrigeration apprenticeship behind him, including ammonia pipe welding from 1 to 10 inch.</p><ul class="pts"><li><b>Food industry experience</b><span>Abattoirs, wineries, cheese factories, cold storage.</span></li><li><b>Qualified and certified</b><span>Cert III Engineering Fabrication, AS1796 welder certificate.</span></li><li><b>Family owned since 2007</b><span>You deal with the owner on every job.</span></li><li><b>Workshop or onsite</b><span>We come to you or build it in Korumburra.</span></li></ul><div class="creds"><span>Cert III Engineering Fabrication</span><span>AS1796 certified welder</span><span>ABN 33 800 845 828</span></div></div></div></section>
+<section aria-labelledby="pr-h"><div class="wrap"><div class="rv"><span class="label">How it works</span><h2 id="pr-h">Simple to book. <span class="soft">Done properly.</span></h2></div><div class="steps stag" id="steps"><div class="wire" aria-hidden="true"><i></i></div>
+<div class="step"><div class="n">1</div><h3>Call or email</h3><p>Send photos, drawings or a rough idea.</p></div>
+<div class="step"><div class="n">2</div><h3>Quote</h3><p>Clear pricing for materials and labour.</p></div>
+<div class="step"><div class="n">3</div><h3>Build</h3><p>Workshop fabrication or onsite welding.</p></div>
+<div class="step"><div class="n">4</div><h3>Sign off</h3><p>Installed, cleaned and checked with you.</p></div>
+</div></div></section>
+<section id="work" aria-labelledby="wk-h" style="padding-top:0"><div class="wrap"><div class="rv"><span class="label">Recent work</span><h2 id="wk-h">From the workshop <span class="soft">and on site.</span></h2></div><div class="work stag">
+<figure><div class="imw"><img src="img/ypipe.webp" alt="Stainless Y-piece" width="820" height="820" loading=lazy></div><figcaption><b>Stainless Y-piece</b>Process piping</figcaption></figure>
+<figure><div class="imw"><img src="img/foodframe.webp" alt="Food-grade frame" width="820" height="820" loading=lazy></div><figcaption><b>Food-grade frame</b>Onsite stainless welding</figcaption></figure>
+<figure><div class="imw"><img src="img/balustrade.webp" alt="Wire balustrade" width="820" height="820" loading=lazy></div><figcaption><b>Wire balustrade</b>Stainless, residential</figcaption></figure>
+<figure><div class="imw"><img src="img/coldroom.webp" alt="Cold room" width="820" height="820" loading=lazy></div><figcaption><b>Plant fit-out</b>Cold room doors</figcaption></figure>
+<figure><div class="imw"><img src="img/doors.webp" alt="Doors" width="820" height="820" loading=lazy></div><figcaption><b>Commercial doors</b>Steel frame and fit-out</figcaption></figure>
+<figure><div class="imw"><img src="img/dredger.webp" alt="Dredger repair" width="697" height="488" loading=lazy></div><figcaption><b>Sand dredger</b>Pipe welding repair</figcaption></figure>
+</div>
+<p class="ig rv">More work on Instagram: <a href="https://www.instagram.com/southeastcustomwelding/">@southeastcustomwelding</a></p>
+</div></section>
+<section aria-labelledby="pm-h" style="padding-top:0"><div class="wrap"><div class="rv"><span class="label">Our promise</span><h2 id="pm-h">What every client gets <span class="soft">from day one.</span></h2></div><div class="prom stag p4"><div><b>The owner on the tools</b><span>Johnny quotes it and welds it.</span></div><div><b>Food-grade standards</b><span>Finishes that pass hygiene checks.</span></div><div><b>Honest timeframes</b><span>Realistic dates, kept.</span></div><div><b>Tidy sites</b><span>Cleaned up before we leave.</span></div></div><p class="revsrc">Customer reviews will appear here once connected to the Google Business Profile.</p></div></section>
+<section id="quote" aria-labelledby="q-h" style="padding-top:0"><div class="wrap contact"><div class="rv"><span class="label">Get a quote</span><h2 id="q-h">Got a job for us? <span class="soft">Call Johnny or send the details.</span></h2><p class="lead" style="margin-top:18px">Workshop in Korumburra, working across Melbourne, the South East and Gippsland.</p>
+<div class="subs"><span>Korumburra</span><span>Leongatha</span><span>Gippsland</span><span>South East Melbourne</span><span>Melbourne</span></div>
+<ul class="facts">
+<li><b>Mobile</b><a href="tel:+61433753011">0433 753 011</a></li>
+<li><b>Office</b><a href="tel:+61356623979">03 5662 3979</a></li>
+<li class="wide"><b>Email</b><a href="mailto:johnny@southeastcustomwelding.com.au">johnny@southeastcustomwelding.com.au</a></li>
+<li><b>Workshop</b>Korumburra VIC 3950</li>
+<li><b>ABN</b>33 800 845 828</li>
+</ul></div>
+<form id="qf" class="rv" novalidate><h3>Request a quote</h3><div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required><p class="err">Please add your name.</p></div><div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required><p class="err">Please add a phone number so we can call you back.</p></div><div><label for="f-loc">Suburb or town</label><input id="f-loc" name="loc" autocomplete="address-level2"></div><div><label for="f-job">Type of work</label><select id="f-job" name="job"><option>Food industry fabrication</option><option>Process piping</option><option>Handrails or balustrades</option><option>Truck, trailer or caravan</option><option>Onsite repair</option><option>Maintenance</option><option>Something else</option></select></div><div class="full"><label for="f-msg">Tell us about the job</label><textarea id="f-msg" name="msg"></textarea></div><div class="full" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center"><button class="btn btn-a" type="submit">Get a quote</button><span class="formnote">No obligation.</span></div><p class="ok" id="ok" role="status">Thanks! This is a concept site, so nothing was sent. On the live site your request goes straight to Johnny.</p></form></div></section>
+<div class="wrap"><div class="final rv"><div><h2>Need it welded right the first time?</h2><p>Family owned since 2007. Workshop or onsite across Gippsland and Melbourne.</p></div><div class="ctas"><a class="btn btn-dk" href="#quote">Get a quote</a><a class="btn btn-ghost" href="tel:+61433753011">0433 753 011</a></div></div></div>
+<footer id="foot"><div class="foot-aurora" aria-hidden="true"></div><div class="foot-giant" aria-hidden="true" style="--gsz:19vw">SOUTH EAST</div><div class="wrap"><div class="fgrid"><div>
+<span class="brandrow"><img class="lbadge big" src="img/badge.webp" alt="South East Custom Welding logo" width="160" height="160"><span class="wordmark"><b>SOUTH EAST</b><small>Custom Welding</small></span></span>
+<p>Stainless and aluminium fabrication for the food industry, handrails, balustrades and truck and trailer repairs. Korumburra VIC. Family owned since 2007.</p></div>
+<div><h4>Services</h4><ul><li>Food industry fabrication</li><li>Process piping</li><li>Handrails and balustrades</li><li>Truck and trailer repairs</li><li>Onsite repairs</li></ul></div>
+<div><h4>Contact</h4><ul><li><a href="tel:+61433753011">0433 753 011</a></li><li><a href="tel:+61356623979">03 5662 3979</a></li><li><a href="mailto:johnny@southeastcustomwelding.com.au">Email Johnny</a></li><li>Korumburra VIC 3950</li></ul></div>
+</div><div class="credit"><span>© 2026 South East Custom Welding</span><span>Website concept crafted with <span class="foot-heart" aria-hidden="true">♥</span> by <a href="https://magolabs.in">Mago Labs</a></span></div></div></footer>
+<div class="mbar" aria-label="Quick actions"><a class="btn btn-line" href="tel:+61433753011">Call</a><a class="btn btn-a" href="#quote">Get a quote</a></div>
+<script>
+{
+  const root=document.documentElement;
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
+  const hdr=document.getElementById('hdr'),prog=document.querySelector('.prog'),foot=document.getElementById('foot'),stage=document.getElementById('stage');
+  const wire=document.querySelector('.wire i'),steps=document.getElementById('steps');
+  const clamp=v=>v<0?0:v>1?1:v;let q=false;
+  const pimg=stage?stage.querySelector('.hbg img,.hmask img'):null;
+  const onScroll=()=>{q=false;const y=scrollY,h=root.scrollHeight-innerHeight;
+    hdr.classList.toggle('scrolled',y>30);prog.style.setProperty('--sp',h>0?(y/h).toFixed(4):0);
+    if(reduce){foot.style.setProperty('--p','1');if(wire)wire.style.transform='none';return}
+    const f=foot.getBoundingClientRect();foot.style.setProperty('--p',clamp((innerHeight-f.top)/(innerHeight*.9)).toFixed(3));
+    if(steps&&wire){const r=steps.getBoundingClientRect();wire.style.transform='scaleX('+clamp((innerHeight*.8-r.top)/(r.height+innerHeight*.3)).toFixed(3)+')'}
+    if(stage){const r=stage.getBoundingClientRect();if(r.bottom>0){const k=r.top/innerHeight;
+      stage.querySelectorAll('[data-depth]').forEach(el=>{el.style.translate='0 '+(k*-el.dataset.depth*.9).toFixed(1)+'px'});
+      if(pimg)pimg.style.setProperty('--py',(Math.max(-1,Math.min(1,k))*-50).toFixed(1)+'px')}}
+  };
+  addEventListener('scroll',()=>{if(!q){q=true;requestAnimationFrame(onScroll)}},{passive:true});onScroll();
+  if(!reduce&&'IntersectionObserver' in window){
+    root.classList.add('js');
+    const io=new IntersectionObserver(es=>{for(const e of es){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}},{rootMargin:'0px 0px -10% 0px'});
+    document.querySelectorAll('.rv,.stag,.clipr').forEach(el=>io.observe(el));
+    setTimeout(()=>document.querySelectorAll('.rv,.stag,.clipr').forEach(el=>el.classList.add('in')),7000);
+    const fmt=(v,dec)=>v<10000?v.toFixed(dec):Number(v.toFixed(dec)).toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec});
+    const cio=new IntersectionObserver(es=>{for(const e of es){if(!e.isIntersecting)continue;cio.unobserve(e.target);
+      const el=e.target,to=+el.dataset.to,dec=+(el.dataset.dec||0),t0=performance.now();
+      const tick=t=>{const k=Math.min(1,(t-t0)/1500),v=to*(1-Math.pow(1-k,3));el.textContent=(el.dataset.pre||'')+fmt(v,dec);if(k<1)requestAnimationFrame(tick);else el.textContent=(el.dataset.pre||'')+fmt(to,dec)};
+      el.textContent=(el.dataset.pre||'')+fmt(0,dec);requestAnimationFrame(tick)}},{threshold:.6});
+    document.querySelectorAll('.count').forEach(el=>cio.observe(el));
+    document.addEventListener('pointerdown',e=>{const el=e.target.closest('.btn');if(!el)return;const r=el.getBoundingClientRect(),d=document.createElement('span');d.className='btn-ripple';d.style.left=(e.clientX-r.left)+'px';d.style.top=(e.clientY-r.top)+'px';d.addEventListener('animationend',()=>d.remove());el.appendChild(d);setTimeout(()=>d.remove(),900)},{passive:true});
+    if(fine){
+      document.querySelectorAll('.magnetic').forEach(el=>{let raf=null,tx=0,ty=0,cx=0,cy=0;
+        const fr=()=>{cx+=(tx-cx)*.18;cy+=(ty-cy)*.18;el.style.translate=cx.toFixed(2)+'px '+cy.toFixed(2)+'px';raf=(Math.abs(tx-cx)>.1||Math.abs(ty-cy)>.1)?requestAnimationFrame(fr):null};
+        el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();tx=(e.clientX-r.left-r.width/2)*.25;ty=(e.clientY-r.top-r.height/2)*.3;if(!raf)raf=requestAnimationFrame(fr)});
+        el.addEventListener('pointerleave',()=>{tx=0;ty=0;if(!raf)raf=requestAnimationFrame(fr)})});
+      document.querySelectorAll('.card').forEach(c=>c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')}));
+      if(stage&&stage.querySelector('[data-depth]')){const hero=stage.closest('.hero');let tx=0,ty=0,cx=0,cy=0,raf=null;
+        const fr=()=>{cx+=(tx-cx)*.08;cy+=(ty-cy)*.08;stage.querySelectorAll('[data-depth]').forEach(el=>{const d=+el.dataset.depth/40;el.style.transform=`translate3d(${(cx*d*14).toFixed(2)}px,${(cy*d*14).toFixed(2)}px,0)`});raf=(Math.abs(tx-cx)>.002||Math.abs(ty-cy)>.002)?requestAnimationFrame(fr):null};
+        hero.addEventListener('pointermove',e=>{const r=hero.getBoundingClientRect();tx=(e.clientX-r.left)/r.width-.5;ty=(e.clientY-r.top)/r.height-.5;if(!raf)raf=requestAnimationFrame(fr)});
+        hero.addEventListener('pointerleave',()=>{tx=0;ty=0;if(!raf)raf=requestAnimationFrame(fr)})}
+    }
+    document.querySelectorAll('.mq-track,.row').forEach(t=>{t.innerHTML+=t.innerHTML;[...t.children].slice(t.children.length/2).forEach(c=>c.setAttribute('aria-hidden','true'))});
+    const initStack=(wrap,sel,opt)=>{
+      if(!wrap||innerWidth<861)return;const cards=[...wrap.querySelectorAll(sel)];if(cards.length<2)return;
+      const end=document.createElement('div');end.className='stack-end';end.setAttribute('aria-hidden','true');wrap.appendChild(end);
+      const C={sp:.24,se:.12,d:opt.d,s:opt.s,b:opt.b};const base=1-(cards.length-1)*C.s;
+      let rel=[],relEnd=0,deck=0,vh=0,last=[],qq=false;
+      const prg=(v,a,b)=>v<a?0:v>b?1:(v-a)/(b-a);
+      const measure=()=>{vh=innerHeight;const sv=cards.map(c=>c.style.transform);cards.forEach(c=>{c.style.transform='none';c.style.filter=''});
+        const wt=wrap.getBoundingClientRect().top;rel=cards.map(c=>c.getBoundingClientRect().top-wt);relEnd=end.getBoundingClientRect().top-wt;
+        let tall=0;cards.forEach(c=>tall=Math.max(tall,c.offsetHeight));deck=C.sp*vh+C.d*(cards.length-1)+tall;cards.forEach((c,i)=>c.style.transform=sv[i]);last=[];apply()};
+      const apply=()=>{const top=scrollY,wt=wrap.getBoundingClientRect().top+top,sp=C.sp*vh,se=C.se*vh,pe=wt+relEnd-deck;let ti=0;
+        cards.forEach((c,k)=>{if(top>=wt+rel[k]-sp-C.d*k)ti=k});
+        cards.forEach((c,i)=>{const ct=wt+rel[i],ps=ct-sp-C.d*i,tg=base+i*C.s,sc=1-prg(top,ps,ct-se)*(1-tg);let ty=0;if(top>=ps)ty=(top>pe?pe:top)-ct+sp+C.d*i;
+          const bl=i<ti?(ti-i)*C.b:0,t={y:Math.round(ty*100)/100,s:Math.round(sc*1000)/1000,b:Math.round(bl*100)/100},p=last[i];
+          if(p&&Math.abs(p.y-t.y)<.1&&Math.abs(p.s-t.s)<.001&&Math.abs(p.b-t.b)<.1)return;
+          c.style.transform=`translate3d(0,${t.y}px,0) scale(${t.s})`;c.style.filter=t.b>0?`blur(${t.b}px)`:'';last[i]=t})};
+      wrap.classList.add('is-stacking');measure();
+      addEventListener('scroll',()=>{if(qq)return;qq=true;requestAnimationFrame(()=>{qq=false;apply()})},{passive:true});
+      addEventListener('resize',measure);if(window.ResizeObserver)new ResizeObserver(measure).observe(wrap);
+    };
+    initStack(document.getElementById('gets'),'.get',{d:18,s:.035,b:1});
+  }
+  const media=document.querySelector('.story-media');
+  if(media&&'IntersectionObserver' in window){
+    const imgs=media.querySelectorAll('img'),bars=media.querySelectorAll('.meter i'),sts=document.querySelectorAll('.st');
+    const sio=new IntersectionObserver(es=>{for(const e of es){if(!e.isIntersecting)continue;const i=+e.target.dataset.i;
+      sts.forEach(s=>s.classList.toggle('on',s===e.target));imgs.forEach((im,k)=>im.classList.toggle('on',k===i));bars.forEach((b,k)=>b.classList.toggle('on',k<=i))}},{rootMargin:'-45% 0px -45% 0px'});
+    sts.forEach(s=>sio.observe(s));
+  }
+  const ba=document.getElementById('ba');
+  if(ba){const r=ba.querySelector('input');const set=v=>ba.style.setProperty('--x',v+'%');r.addEventListener('input',()=>set(r.value));
+    if(!reduce){let done=false;new IntersectionObserver((es,o)=>{if(es[0].isIntersecting&&!done){done=true;o.disconnect();let t0=performance.now();const sw=t=>{const k=Math.min(1,(t-t0)/1600);const v=50+Math.sin(k*Math.PI*2)*22*(1-k);set(v.toFixed(1));r.value=v;if(k<1)requestAnimationFrame(sw)};requestAnimationFrame(sw)}},{threshold:.5}).observe(ba)}}
+  const f=document.getElementById('qf');
+  f.addEventListener('submit',ev=>{ev.preventDefault();let bad=null;
+    for(const id of ['f-name','f-phone']){const i=document.getElementById(id),w=i.parentElement,miss=!i.value.trim();w.classList.toggle('invalid',miss);i.setAttribute('aria-invalid',miss);if(miss&&!bad)bad=i}
+    if(bad){bad.focus();return}
+    document.getElementById('ok').style.display='block'});
+}
+</script>
+</body>
+</html>
